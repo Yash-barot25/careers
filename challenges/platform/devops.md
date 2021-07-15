@@ -13,7 +13,7 @@ We've decided we want to put together a small program to report new TCP connecti
 The format is described here: https://www.kernel.org/doc/Documentation/networking/proc_net_tcp.txt
 
 ```
-❯ cat /proc/net/tcp
+$ cat /proc/net/tcp
   sl  local_address rem_address   st tx_queue rx_queue tr tm->when retrnsmt   uid  timeout inode
    0: 00000000:1F99 00000000:0000 0A 00000000:00000000 00:00000000 00000000     0        0 30876 1 0000000000000000 100 0 0 10 0
    1: 00000000:DFF9 00000000:0000 0A 00000000:00000000 00:00000000 00000000     0        0 22564 1 0000000000000000 100 0 0 10 0
